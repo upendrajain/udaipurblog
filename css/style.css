@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Muli', sans-serif;
+}
+/*//========navbar start=======//*/
+nav
+{
+	box-shadow: 0px 0px 1px 0px;
+	background:white;
+	position:sticky !important;
+}
+nav #members-menu li
+{
+	margin:0px 5px;
+}
+nav .color-info
+{
+	background: #19ddc4;
+	color: #fff;
+}
+nav .color-signin a
+{
+	background: #fff;
+	color:#19ddc4;
+	border:1px solid #000; 
+}
+/*//=======navbar end=======//*/
+
+/*//========carousel start=======//*/
+.carousel-top img
+{
+	width:100% !important;
+	height:450px !important;
+	background: 100% 100% !important;
+}
+/*//========caroudel end=======//*/
+/*//========content start=======//*/
+#top-content h1
+{
+	border-bottom:2px solid #19ddc4;
+}
+#top-content .feature-block
+{
+	height:100%;
+	border:1px solid #19ddc4;
+	margin:0px 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#top-content img
+{
+	width:100%;
+	height:200px !important;
+}
+#top-content img:hover
+{
+	width:101% !important;
+	height:201px !important;
+}
+.bottom-content
+{
+	text-align: center;
+}
+.bottom-content span
+{
+	width:20px !important;
+	height: 1px !important;
+	border:2px solid red !important;
+}
+/*//========content end=======//*/
+/*//========video section start=======//*/
+#video-section .vsec1,
+#food-section .vsec1,
+#culture-section .vsec1,
+#place-section .vsec1,
+#news-section .vsec1,
+#about-section .vsec1,
+#contact-section .vsec1,
+#festival-section .vsec1
+{
+	width:100%;
+	height:450px;
+	background:#f3f3f3;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	padding:20px 200px;
+	text-align:center;
+}
+#video-section .vsec1 h2
+{
+	/*margin-top:20px;*/
+}
+#video-section .vsec1 p,
+#food-section .vsec1 p,
+#culture-section .vsec1 p,
+#place-section .vsec1 p,
+#news-section .vsec1 p,
+#about-section .vsec1 p,
+#contact-section .vsec1 p,
+#festival-section .vsec1 p
+{
+	margin-top:10px;
+	color:#555555;
+}
+#breadcrumb ol li 
+{
+	text-align:center !important;
+}
+#video-content .col,
+#food-content .col,
+#culture-content .col,
+#place-content .col,
+#news-content .col
+{
+	text-align:center !important;
+}
+#festival-section .col
+{
+	text-align:left;
+}
+#festival-content .col img
+{
+	text-align: center;
+}
+#video-content h2,
+#food-content h2,
+#culture-content h2,
+#place-content h2,
+#news-content h2,
+#about-content h2,
+#festival-content h2
+{
+	text-align: center !important;
+	padding:5px 0px;
+}
+#video-content p,
+#food-content p,
+#culture-content p,
+#place-content p,
+#news-content p,
+#about-content p,
+#festival-content p
+{
+	padding:10px 0px;
+}
+#video-content .col img,
+#food-content .col img,
+#culture-content .col img,
+#place-content .col img,
+#news-content .col img,
+#about-content .col img
+{
+	width:100%;
+	height:500px;
+}
+.read-more-wrapper a
+{
+	text-decoration:none;
+}
+.read-more-wrapper .more-text
+{
+	padding:5px 0px;
+	border-bottom:2px solid #19ddc4;
+}
+.read-more-wrapper a:hover .more-text
+{
+	letter-spacing: 5px;
+}
+.more-text
+{
+	font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+}
+/*//========video section end=======//*/
+/*============ footer section style start ============*/
+footer
+{
+	padding:50px 0px;
+	box-shadow: 0px 0px 1px 0px #000;
+	margin-top: 50px;
+}
+.footer-area .footer-tittle h4{color:#000;font-size:20px;margin-bottom:29px;font-weight:500;text-transform:capitalize;font-family:"Roboto",sans-serif}
+.footer-area .footer-tittle ul li{color:#012f5f;margin-bottom:15px;list-style :none;}
+.footer-area .footer-tittle ul li i{padding:0px 5px;}
+.footer-area .footer-tittle ul li a{color:#868c98;font-weight:300;text-decoration:none;}
+.footer-area .footer-tittle ul li a:hover{color:#19ddc4;padding-left:5px;}
+.footer-area .footer-tittle .social-icon
+{
+	font-size: 18px;
+	color:#19ddc4;
+	padding:0px 10px;
+	box-sizing: border-box;
+}
+footer p
+{
+	margin-top: 40px;
+}
+/*============ footer section style End ============*/
+@media only screen and (min-width:769px) and (max-width:1300px)
+{
+	nav #members-menu
+	{
+		display:none;
+	}
+}
+@media only screen and (max-width:768px)
+{
+	nav
+	{
+		position:sticky !important;
+	}
+	nav #members-menu
+	{
+		display:none;
+	}
+	nav .navbar-nav li
+	{
+		margin:0px 0px !important;
+		padding:0px 0px !important;
+	}
+	.carousel-top img
+	{
+		width:100% !important;
+		height:300px !important;
+	}
+	#top-content h1
+	{
+		font-size: 28px;
+	}
+	#top-content .feature-block
+	{
+		width:100%;
+		height:100%;
+		margin:0px 0px;
+	}
+	#video-section .vsec1,
+	#food-section .vsec1,
+	#culture-section .vsec1,
+	#place-section .vsec1,
+	#news-section .vsec1,
+	#about-section .vsec1,
+	#contact-section .vsec1,
+	#festival-section .vsec1
+	{
+		width:100%;
+		height:100%;
+		padding:20px 50px;
+	}
+	#video-content .col,
+	#food-content .col,
+	#culture-content .col,
+	#place-content .col,
+	#news-content .col,
+	#about-content .col,
+	#festival-content .col
+	{
+		margin:20px 0px !important;
+	}
+	#video-content h2,
+	#food-content h2,
+	#culture-content h2,
+	#place-content h2,
+	#news-content h2,
+	#about-content h2,
+	#festival-content h2
+	{
+		font-size:28px;
+		/*text-align: center !important;
+		padding:5px 0px;
+		background: red;*/
+	}
+	#culture-content h1
+	{
+		font-size: 28px;
+		font-weight: 600;
+	}
+	#culture-content .text-left
+	{
+		padding:0px 20px;
+	}
+	#about-content ul
+	{
+		padding:0px 20px;
+	}
+	#video-content .col img,
+	#food-content .col img,
+	#culture-content .col img,
+	#place-content .col img,
+	#about-content .col img,
+	#news-content .col img
+	{
+		width:100%;
+		height:300px;
+	}
+
+}
+@media only screen and (max-width:400px)
+{
+	.carousel-top img
+	{
+		width:100% !important;
+		height:200px !important;
+	}
+	#top-content h1
+	{
+		font-size: 22px;
+	}
+	#top-content img
+	{
+		width:100%;
+		height:150px !important;
+	}
+	#video-content .col,
+	#food-content .col,
+	#culture-content .col,
+	#place-content .col,
+	#news-content .col
+	{
+		margin:20px 0px !important;
+	}
+	#video-content h2,
+	#food-content h2,
+	#culture-content h2,
+	#place-content h2,
+	#news-content h2
+	{
+		font-size:21px;
+	}
+	#culture-content h1
+	{
+		font-size: 22px;
+		font-weight: 600;
+	}
+}
